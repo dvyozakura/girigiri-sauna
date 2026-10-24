@@ -1,0 +1,12 @@
+{
+  "name": "girigiri-sauna",
+  "version": "1.0.0",
+  "private": true,
+  "description": "ギリギリサウナ — おじさんの希望温度にロウリュで近づけるブラウザゲーム",
+  "type": "module",
+  "scripts": {
+    "start": "npx --yes serve -l 5173 .",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "license": "MIT"
+}
